@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
               <p className="text-xl font-bold text-dark">Atharva</p>
             </div>
-            <p className="text-secondary">Software Engineer & MERN Developer</p>
+            <p className="text-secondary">Software Engineer & Full Stack Developer</p>
             <p className="text-secondary/70 text-sm mt-1">Building the future, one line of code at a time</p>
           </div>
           
