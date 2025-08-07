@@ -23,15 +23,6 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: 'Task Management App',
-      role: 'Frontend Developer',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      techStack: ['React.js', 'Firebase', 'Tailwind CSS', 'Socket.io'],
-      github: 'https://github.com/username/task-manager',
-      demo: 'https://taskmanager-demo.vercel.app'
-    },
-    {
-      id: 4,
       name: 'Visualizing Paths',
       role: 'Frontend Developer',
       description: 'A web application that visualizes pathfinding algorithms in action, allowing users to see how different algorithms navigate a grid.',
@@ -40,7 +31,7 @@ const Projects = () => {
       demo: 'https://visualizing-paths.vercel.app/'
     },
     {
-      id: 5,
+      id: 4,
       name: 'Snake Escape',
       role: 'Frontend Developer',
       description: 'Developed a game in p5.js where players control the food to evade a snake using pathfinding algorithms.',
