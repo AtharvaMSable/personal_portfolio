@@ -49,7 +49,7 @@ const Home = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
-                href="https://drive.google.com/file/d/1p4M73yuFKc7Kk1LWsQV6WbiRAsAdFah-/view?usp=sharing"
+                href="https://drive.google.com/file/d/16usnl_8s2ffoeqHvhB6Yp7yFphRNzfOU/view?usp=sharing"
                 target="_blank"
                 className="group inline-flex items-center px-8 py-4 bg-[#5B8EFF] text-white font-medium rounded-lg hover:bg-[#4A7FE6] shadow-card hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1"
               >
