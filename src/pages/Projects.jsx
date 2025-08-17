@@ -14,7 +14,16 @@ const Projects = () => {
     },
     {
       id: 2,
-      name: 'Heavenly - A vacation rental platform',
+      name: 'WattX - Decentralized Energy Trading Platform',
+      role: 'Full Stack Developer',
+      description: 'Buy, sell, and store energy effortlessly through our decentralized platform, while contributing to sustainability with footfall-powered energy.',
+      techStack: ['React.js', 'Node.js', 'Blockchain', 'Web3', 'Smart Contracts'],
+      github: 'https://github.com/AtharvaMSable/WattX',
+      demo: 'https://wattx.vercel.app/'
+    },
+    {
+      id: 3,
+      name: 'VistaStay - A vacation rental platform',
       role: 'Full Stack Developer',
       description: 'Developed a full-stack vacation rental platform using the MERN stack, enabling users to book and list properties.',
       techStack: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Mapbox API'],
@@ -22,7 +31,7 @@ const Projects = () => {
       demo: 'https://wanderlust-jl84.onrender.com/listings'
     },
     {
-      id: 3,
+      id: 4,
       name: 'Visualizing Paths',
       role: 'Frontend Developer',
       description: 'A web application that visualizes pathfinding algorithms in action, allowing users to see how different algorithms navigate a grid.',
@@ -31,7 +40,7 @@ const Projects = () => {
       demo: 'https://visualizing-paths.vercel.app/'
     },
     {
-      id: 4,
+      id: 5,
       name: 'Snake Escape',
       role: 'Frontend Developer',
       description: 'Developed a game in p5.js where players control the food to evade a snake using pathfinding algorithms.',
