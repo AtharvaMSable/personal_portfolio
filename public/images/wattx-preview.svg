@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Logo Area -->
+  <circle cx="60" cy="40" r="20" fill="rgba(255,255,255,0.8)"/>
+  <text x="100" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">WattX</text>
+  
+  <!-- Main Content Area -->
+  <rect x="50" y="120" width="700" height="400" rx="10" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Hero Section -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Decentralized Energy Trading</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">For Everyone</text>
+  
+  <!-- Feature Cards -->
+  <rect x="100" y="280" width="150" height="100" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <rect x="325" y="280" width="150" height="100" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <rect x="550" y="280" width="150" height="100" rx="8" fill="rgba(255,255,255,0.2)"/>
+  
+  <!-- Card Icons -->
+  <circle cx="175" cy="310" r="15" fill="rgba(34,197,94,0.8)"/>
+  <circle cx="400" cy="310" r="15" fill="rgba(234,179,8,0.8)"/>
+  <circle cx="625" cy="310" r="15" fill="rgba(239,68,68,0.8)"/>
+  
+  <!-- Card Text -->
+  <text x="175" y="350" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Buy Energy</text>
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Sell Energy</text>
+  <text x="625" y="350" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Store Energy</text>
+  
+  <!-- Bottom Section -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" text-anchor="middle">Powered by Blockchain Technology</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="550" width="800" height="50" fill="rgba(0,0,0,0.2)"/>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" text-anchor="middle">Contributing to sustainability with footfall-powered energy</text>
+</svg>

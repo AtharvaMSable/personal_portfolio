@@ -16,10 +16,11 @@ const Projects = () => {
       id: 2,
       name: 'WattX - Decentralized Energy Trading Platform',
       role: 'Full Stack Developer',
-      description: 'Buy, sell, and store energy effortlessly through our decentralized platform, while contributing to sustainability with footfall-powered energy.',
-      techStack: ['React.js', 'Node.js', 'Blockchain', 'Web3', 'Smart Contracts'],
+      description: 'A revolutionary decentralized energy trading platform that enables users to buy, sell, and store energy effortlessly through blockchain technology.',
+      techStack: ['Next.js','Typescript', 'Node.js', 'Blockchain', 'Web3', 'Smart Contracts'],
       github: 'https://github.com/AtharvaMSable/WattX',
-      demo: 'https://wattx.vercel.app/'
+      demo: 'https://wattx.vercel.app/',
+      previewImage: '/images/wattx-preview.png'
     },
     {
       id: 3,
@@ -27,7 +28,7 @@ const Projects = () => {
       role: 'Full Stack Developer',
       description: 'Developed a full-stack vacation rental platform using the MERN stack, enabling users to book and list properties.',
       techStack: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Mapbox API'],
-      github: 'https://github.com/AtharvaMSable/Havenly',
+      github: 'https://github.com/AtharvaMSable/VistaStay',
       demo: 'https://wanderlust-jl84.onrender.com/listings'
     },
     {
@@ -35,7 +36,7 @@ const Projects = () => {
       name: 'Visualizing Paths',
       role: 'Frontend Developer',
       description: 'A web application that visualizes pathfinding algorithms in action, allowing users to see how different algorithms navigate a grid.',
-      techStack: ['JavaScript', 'p5.js', 'HTML', 'CSS'],
+      techStack: ['Javascript', 'p5.js', 'HTML', 'CSS'],
       github: 'https://github.com/AtharvaMSable/Visualizing-Paths',
       demo: 'https://visualizing-paths.vercel.app/'
     },
@@ -93,17 +94,25 @@ const Projects = () => {
                     </div>
                     
                     {/* Website Preview */}
-                    <iframe
-                      src={project.demo}
-                      title={`${project.name} Preview`}
-                      className="w-full h-full scale-50 origin-top-left transform"
-                      style={{ 
-                        width: '200%', 
-                        height: '200%',
-                        pointerEvents: 'none'
-                      }}
-                      loading="lazy"
-                    />
+                    {project.previewImage ? (
+                      <img
+                        src={project.previewImage}
+                        alt={`${project.name} Preview`}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <iframe
+                        src={project.demo}
+                        title={`${project.name} Preview`}
+                        className="w-full h-full scale-50 origin-top-left transform"
+                        style={{ 
+                          width: '200%', 
+                          height: '200%',
+                          pointerEvents: 'none'
+                        }}
+                        loading="lazy"
+                      />
+                    )}
                     
                     {/* Overlay Controls */}
                     <div className="absolute bottom-4 left-4 right-4 flex gap-2">
